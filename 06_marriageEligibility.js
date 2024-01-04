@@ -5,10 +5,12 @@ function marriageEligibility(gender, age) {
   if (age <= 0 || age == null || age == undefined || isNaN(age)) {
     console.log(`Sorry! You have entered invalid input\n`);
   } else {
-    if ((gender == "Male" && age >= 21) || (gender == "Female" && age >= 18)) {
+    if (gender == "Male" && age >= 21 || gender == "Female" && age >= 18) {
       console.log(`Hey! you are eligible for marriage\n`);
     }
+    else{
     console.log(`Sorry! You are not eligible for marriage\n`);
+    }
   }
 }
 marriageEligibility("Male", 17);

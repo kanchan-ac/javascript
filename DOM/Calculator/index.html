@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculator</h1>
+
+      <label>Enter First Number</label><br />
+      <input type="number" id="size" class="field-one" /><br />
+      <label>Enter Second Number</label><br />
+      <input type="number" id="size" class="field-two" /><br />
+      <button type="submit" id="addition">Addition</button><br />
+      <button type="submit" id="subtraction">Subtraction</button><br />
+      <button type="submit" id="multi">Multiplication</button><br />
+      <button type="submit" id="div">Division</button>
+      <button type="reset" id="clear">Clear</button>
+
+      <p>Result is :<span id="resultValue"> ---</span></p>
+    </div>
+  </body>
+</html>

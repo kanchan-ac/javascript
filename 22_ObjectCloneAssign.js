@@ -26,7 +26,7 @@ console.log(
 );
 const arrayEven = [2, 30, 14, 8];
 const mergeArray = [...arrayEven, arrayNums];
-console.log(`After merging two array result is: ${mergeArray}`);
+console.log(`After merging two array using spread(...) operator result is: ${mergeArray}`);
 console.log(`\n`);
 console.log(
   `----------------------------------------------Step4----------------------------------------------------\n`
